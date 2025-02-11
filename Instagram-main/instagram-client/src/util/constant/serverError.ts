@@ -1,0 +1,13 @@
+const ERROR_MESSAGE = {
+  INTERNAL_SERVER_ERROR: "Internal server error",
+  VALIDATION_ERROR: "Your request is invalid",
+  INVALID_TOKEN: "Your token is invalid",
+  TOKEN_EXPIRED: "TOKEN_EXPIRED",
+};
+
+const ERROR_MESSAGE_NOT_SHOW_TOAST = [
+  "RATE_LIMITED",
+  "TOKEN_VERIFY_EMAIL_EXPIRED",
+];
+
+export { ERROR_MESSAGE, ERROR_MESSAGE_NOT_SHOW_TOAST };
